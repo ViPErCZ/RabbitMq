@@ -20,7 +20,7 @@ abstract class BaseConsumerCommand extends Command
 
 	/**
 	 * @inject
-	 * @var \Kdyby\RabbitMq\Connection
+	 * @var \Kdyby\RabbitMq\IConnection
 	 */
 	public $connection;
 
